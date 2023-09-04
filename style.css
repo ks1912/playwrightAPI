@@ -1,0 +1,32 @@
+.btn.btn-primary {
+  transition: 0.4s;
+  background: #ffa000;
+  color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+  border: 1px solid #ffa000;
+  margin: 10px;
+}
+.btn.btn-primary:hover {
+  transition: 0.4s;
+  background: #ffa000;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+  border: 1px solid #ffa000;
+}
+.btn.btn-primary:active {
+  transition: 0.2s;
+  background: #ffa000;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border: 1px solid #ffa000;
+}
+.btn {
+  height: 36px;
+  display: inline-block;
+  font: 14px/36px "Roboto", sans-serif !important;
+  padding: 0 16px;
+  border-radius: 2px;
+  min-width: 120px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
