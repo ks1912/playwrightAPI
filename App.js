@@ -7,7 +7,7 @@ const port = 3000; // You can use any port you prefer
 
 // Define a route that returns a name
 app.get("/api/name", (req, res) => {
-  const name = "John Doe"; // Replace this with your desired name or logic to fetch a name
+  const name = "Kunal Singh"; // Replace this with your desired name or logic to fetch a name
   res.json({ name });
 });
 
