@@ -36,6 +36,7 @@
           }
           const data = await response.json();
           const name = data.name;
+          console.log(data.id);
           document.getElementById("name").textContent = name;
         } catch (error) {
           console.error("Error fetching name:", error);
